@@ -27,4 +27,23 @@
     <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
   </ul>
   <input type="button" @click="addToCount(1)"></input>
+  <div>
+    <v-alert :value="true" type="success">
+      This is a success alert.
+    </v-alert>
+
+    <v-alert :value="true" type="info">
+      This is a info alert.
+    </v-alert>
+
+    <v-alert :value="true" type="warning">
+      This is a warning alert.
+    </v-alert>
+
+    <v-alert :value="true" type="error">
+      This is a error alert.
+    </v-alert>
+  </div>
+
+  <btn type="success">Success</btn>
 </div>    
